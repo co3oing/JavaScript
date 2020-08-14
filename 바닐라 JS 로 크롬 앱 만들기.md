@@ -21,7 +21,7 @@
  
  ### Object
  
- ```
+ ```javascript
  const nicoInfo = {
   name : "Nico",
   age : 33,
@@ -31,7 +31,7 @@
       fatty : false
     },
     {
-      name : "Cheese burger", // JavaScript에서 `` 는 "" 와 같다.
+      name : "Cheese burger", // JavaScript에서 "" 와 '' 는 같다.
       fatty : true
     }
   ]
@@ -42,7 +42,7 @@
  
  ### Function
  
- ```
+ ```javascript
  fuction sayHello(){
   console.log('Hello!');
  }
@@ -50,3 +50,6 @@
  sayHello();
  ```
  
+ ### String
+ `console.log("Hello " + name + " you are " + age + " years old");`
+ `console.log(`Hello ${name} you are ${age} years old`);`
