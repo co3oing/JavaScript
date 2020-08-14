@@ -1,11 +1,12 @@
 # 바닐라 JS 로 크롬 앱 만들기
 
 > https://nomadcoders.co/javascript-for-beginners/lobby
+
 > 코드 작성 : https://repl.it/
 
 ## THEORY
 
-### 변수
+### variable
 
 `let`
 
@@ -15,7 +16,7 @@
 
 > `dayOfWeek` : 변수는 소문자로 시작해서 띄어쓰기 필요시 다음 단어의 첫 글자를 대문자로 작성한다.
  
-### 배열 선언
+### Array
 
 `dayOfWeek = [];`
  
@@ -51,5 +52,34 @@
  ```
  
  ### String
- `console.log("Hello " + name + " you are " + age + " years old");`
- `console.log(`Hello ${name} you are ${age} years old`);`
+ 
+ ```javascript
+ console.log("Hello " + name + " you are " + age + " years old");
+ ```
+ 
+ ### String Interpolation
+ 
+ ```javascript
+ console.log(`Hello ${name} you are ${age} years old`);
+ ```
+ 
+ ```javascript
+ const calculator = {
+  plus: fuction(a, b){
+   return a + b;
+  }
+ }
+ 
+ const plus = calculator.plus(5, 5);
+ ```
+ > Object 안에 Fuction을 만들 수 있다.
+
+### JS DOM Functions
+
+> DOM(Document Object Model)
+
+```javascript
+const title = document.getElementById("title");
+const title = document.querySelector("#title");
+const title = document.querySelector(".title");
+```
