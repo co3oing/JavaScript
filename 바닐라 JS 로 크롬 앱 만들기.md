@@ -51,6 +51,17 @@
  sayHello();
  ```
  
+  ```javascript
+ const calculator = {
+  plus: fuction(a, b){
+   return a + b;
+  }
+ }
+ 
+ const plus = calculator.plus(5, 5);
+ ```
+ > Object 안에 Fuction을 만들 수 있다.
+ 
  ### String
  
  ```javascript
@@ -62,21 +73,10 @@
  ```javascript
  console.log(`Hello ${name} you are ${age} years old`);
  ```
- 
- ```javascript
- const calculator = {
-  plus: fuction(a, b){
-   return a + b;
-  }
- }
- 
- const plus = calculator.plus(5, 5);
- ```
- > Object 안에 Fuction을 만들 수 있다.
 
 ### JS DOM Functions
 
-> DOM(Document Object Model)
+> DOM = Document Object Model
 
 ```javascript
 const title = document.getElementById("title");
