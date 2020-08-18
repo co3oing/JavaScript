@@ -7,13 +7,13 @@
 
 ### variable
 
+> `dayOfWeek` : 변수는 소문자로 시작해서 띄어쓰기 필요시 다음 단어의 첫 글자를 대문자로 작성한다.
+
 `let`
 
 `const` : 변경할 수 없는 상수로 선언한다.
 
 `var` = variable
-
-> `dayOfWeek` : 변수는 소문자로 시작해서 띄어쓰기 필요시 다음 단어의 첫 글자를 대문자로 작성한다.
  
 ### Array
 
@@ -50,6 +50,8 @@
  sayHello();
  ```
  
+ > Object 안에 Fuction을 만들 수 있다.
+
   ```javascript
  const calculator = {
   plus: fuction(a, b){
@@ -59,7 +61,6 @@
  
  const plus = calculator.plus(5, 5);
  ```
- > Object 안에 Fuction을 만들 수 있다.
  
  ### String
  
