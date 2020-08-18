@@ -80,6 +80,6 @@
 
 ```javascript
 const title = document.getElementById("title");
-const title = document.querySelector("#title");
-const title = document.querySelector(".title");
+const title = document.querySelector("#title"); // ID
+const title = document.querySelector(".title"); // Class
 ```
