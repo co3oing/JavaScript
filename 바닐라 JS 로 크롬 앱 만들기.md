@@ -1,8 +1,7 @@
 # 바닐라 JS 로 크롬 앱 만들기
 
-> https://nomadcoders.co/javascript-for-beginners/lobby
-
-> 코드 작성 : https://repl.it/
+> https://nomadcoders.co/javascript-for-beginners/lobby  
+>  코드 작성 : https://repl.it/
 
 ## THEORY
 
