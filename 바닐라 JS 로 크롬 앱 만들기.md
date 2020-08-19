@@ -13,7 +13,7 @@
 
 `const` : 변경할 수 없는 상수로 선언한다.
 
-`var` = variable
+`var`
  
 ### Array
 
