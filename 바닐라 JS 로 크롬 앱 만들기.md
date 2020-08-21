@@ -1,4 +1,4 @@
-# 바닐라 JS 로 크롬 앱 만들기
+# 바닐라 JS로 크롬 앱 만들기
 
 > https://nomadcoders.co/javascript-for-beginners/lobby  
 >  코드 작성 : https://repl.it/
@@ -43,7 +43,7 @@
  ### Function
  
  ```javascript
- fuction sayHello(){
+ fuction sayHello() {
   console.log('Hello!');
  }
  
@@ -80,6 +80,28 @@
 
 ```javascript
 const title = document.getElementById("title");
+// querySelector 노드의 첫번째 자식을 반환
 const title = document.querySelector("#title"); // ID
 const title = document.querySelector(".title"); // Class
+```
+
+### Events
+
+```javascript
+function handleResize() {
+ console.log("I have been resized");
+}
+
+// window.addEventListener("resize", handleResize()); 
+// handleResize()일 경우함수를 바로 호출한다. 
+// 하지만 우리는 "resize"일때만 함수를 호출하기를 원한다.
+window.addEventListener("resize", handleResize);
+```
+
+```javascript
+function handleClick() {
+ title.style.color = "blue";
+}
+
+title.addEventListener("click", handleClick);
 ```
