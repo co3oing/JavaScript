@@ -50,7 +50,7 @@
  sayHello();
  ```
  
-Object 안에 Fuction을 만들 수 있다.
+* Object 안에 Fuction을 만들 수 있다.
 
   ```javascript
  const calculator = {
