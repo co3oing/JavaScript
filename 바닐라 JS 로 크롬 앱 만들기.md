@@ -50,7 +50,7 @@
  sayHello();
  ```
  
-* Object 안에 Fuction을 만들 수 있다.
+> Object 안에 Fuction을 만들 수 있다.  
 
   ```javascript
  const calculator = {
@@ -136,7 +136,7 @@ init();
 
 ### DOM if else Function 2
 
-css, javascript를 적절하게 짜는것이 중요하다.
+> css, javascript를 적절하게 짜는것이 중요하다.
 
 ```css
 body {
@@ -199,7 +199,7 @@ init();
 
 ### toggle
 
-contains의 코드와 동일한 동작을 한다.
+> contains의 코드와 동일한 동작을 한다.
 
 ```javascript
 const hasClass = title.classList.contains(CLICKED_CLASS);
